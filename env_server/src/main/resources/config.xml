@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<server class="com.briup.env.server.ServerImpl">
+		<port>9999</port>
+	</server>
+	<dbstore class="com.briup.env.server.DbStoreImpl">
+		<batchSize>2000</batchSize>
+	</dbstore>
+	<logger class="com.briup.env.common.interfaces.impl.LoggerImpl"></logger>
+</configuration>

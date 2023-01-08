@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<gather class="com.briup.env.client.GatherImpl">
+		<fileName>src/main/resources/radwtmp</fileName>
+	</gather>
+	<client class="com.briup.env.client.ClientImpl">
+		<ip>127.0.0.1</ip>
+		<port>9999</port>
+	</client>
+	<logger class="com.briup.env.common.interfaces.impl.LoggerImpl"></logger>
+</configuration>
